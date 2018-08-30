@@ -1,0 +1,34 @@
+初始配置
+git config --global user.name
+git config --global user.email
+
+初始化存储库
+git init
+
+克隆项目库
+git clone <url>
+
+添加暂存库
+git add <filenam>
+git add .
+
+提交到存储库
+git commit -m<提交注释>
+
+查看提交状态
+git status (-s简化输出)
+
+
+取消缓存已缓存的内容
+git reset HEAD
+
+分支
+
+git branch 查看分支列表
+git branch <分支名称>创建分支
+git checkout <分支名称>切换分支
+git merge 合并分支
+
+比较差异
+git diff
+
